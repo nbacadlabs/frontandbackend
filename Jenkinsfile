@@ -11,7 +11,7 @@ pipeline {
     }
     stage('Copy_Backend_To_Target') {
     when {
-        branch 'main'
+        branch 'master'
     }
       steps {
         sh '''
